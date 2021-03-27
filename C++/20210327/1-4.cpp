@@ -4,8 +4,8 @@ int main() {
     std::cout << "Please input two number: ";
     int a = 0;
     int b = 0;
-    std::cin >> a;
-    std::cin >> b;
+    std::cin >> a >> b;
+    //std::cin >> b;
     std::cout << "The sum of " << a 
             << " and " << b 
             << " is " << a + b << std::endl;
