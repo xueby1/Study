@@ -40,7 +40,7 @@ int main()
         cout<< "error" <<endl;
     }
     //方法3.value_type
-    //mp.insert(map<int, string>::value_type(5,"ccccc55555"));
+    mp.insert(map<int, string>::value_type(5,"ccccc55555"));
     mp.insert(map<int, string>::value_type(5,"ccccc66666"));
  
     //方法4.[]
